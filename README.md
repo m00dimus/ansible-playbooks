@@ -2,10 +2,10 @@
 ansible-playbook examples and use cases
 
 ### Playbooks
-- ping.yml - ping localhost and do not gather facts
+- playbooks/ping.yml - ping localhost and do not gather facts
 
-Example: `ansible-playbook ping.yml`
+Example: `ansible-playbook playbooks/ping.yml`
 
-- update.vml - update debian based localhost and using elevate privledges
+- playbooks/update.yml - update debian based localhost and using elevate privledges
 
-Example: `ansible-playbook update.yml --ask-become`
+Example: `ansible-playbook playbooks/update.yml --ask-become`
